@@ -139,7 +139,7 @@ const Sidebar = () => {
           </Typography>
         </Popover>
         <hr style={{ width: "20px", marginTop: "20px" }} />
-        <Link to="">
+        <Link to="/" >
           <AccessTimeIcon style={{ marginLeft: "8px" }} fontSize="large" />
           <span>HOURS</span>
         </Link>

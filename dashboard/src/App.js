@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import Sidebar from "./Components/Sidebar/Sidebar";
+
+
 import "./App.css";
+import MainDashboard from "./pages/MainDashboard/MainDashboard";
 
 function App() {
   return (
     <Routes>
-      <Route path="" element={<Sidebar />}>
-      
-      </Route>
+      <Route path="/" element={<MainDashboard />} />
     </Routes>
   );
 }
