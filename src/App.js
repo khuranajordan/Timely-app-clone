@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Task from './component/Task';
+import Task from './component/Task/Task';
 import Login from './component/Login/Login';
 
 function App() {
   return (
     <div className="App">
-      {/* <Task /> */}
-      <Login />
+      <Task />
+      {/* <Login /> */}
     </div>
   );
 }
