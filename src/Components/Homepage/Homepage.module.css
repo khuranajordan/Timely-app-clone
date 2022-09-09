@@ -1,6 +1,8 @@
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 .home {
   width: 100%;
@@ -9,7 +11,7 @@
   flex-direction: column;
 }
 .part1 {
-  margin-top: 80px;
+  margin-top: 85px;
   width: 100%;
   background-color: #722fd3;
   display: flex;
@@ -55,13 +57,23 @@ input[type="email"] {
   outline: none;
 }
 
-input[type="submit"] {
+.part1_left_input > input[type="submit"] {
   height: 40px;
   width: 178px;
   background: #001141;
   color: white;
   border-radius: 10px;
   margin-right: 10px;
+  transition: 0.5s;
+}
+input[type="submit"]:hover {
+  height: 40px;
+  width: 178px;
+  background: #722fd3;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 input[type="email"]:active {
   border: none;
@@ -90,6 +102,8 @@ input[type="email"]:active {
   display: flex;
   flex-direction: row;
   gap: 3px;
+  margin-top: -10px;
+  margin-bottom: 80px;
 }
 .part1_left1 h1 {
   color: #0ef0b8;

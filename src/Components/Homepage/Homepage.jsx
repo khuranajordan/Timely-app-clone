@@ -455,7 +455,7 @@ const HomePage = () => {
           </div>
           <div className={styles.try3}>
             <p>20 people or more? </p> &nbsp;&nbsp;
-            <a href="#" style={{ textDecoration: "none" }}>
+            <a href="#" style={{ textDecoration: "underline" }}>
               Get a personalized introduction to Timely
             </a>
           </div>

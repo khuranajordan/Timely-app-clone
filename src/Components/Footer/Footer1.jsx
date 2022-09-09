@@ -120,7 +120,7 @@ const Footer1 = () => {
             <h2>About Memory</h2>
             <p>About us</p>
             <p>
-              Jobs - <span>We're hiring!</span>{" "}
+              Jobs - <span>We're hiring!</span>
             </p>
             <p>Manifesto</p>
             <p>Download our apps</p>
