@@ -27,7 +27,7 @@ const Features = () => {
         py={[1, 2, 2]}
         px={4}
         borderRadius={5}
-        _hover={{ bg: useColorModeValue("#722fd3") }}
+        _hover={{ bg: useColorModeValue("#722fd3")}}
         aria-label="Courses"
         fontWeight="bold"
         onMouseEnter={onOpen}

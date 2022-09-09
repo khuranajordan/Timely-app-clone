@@ -11,6 +11,8 @@ const Navbar = () => {
   return (
     <Center
       bg="#722fd3"
+      opacity="1"
+      zIndex="1"
       w="100%"
       h="90px"
       p={4}
