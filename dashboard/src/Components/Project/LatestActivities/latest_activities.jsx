@@ -3,13 +3,19 @@ import { LatestActivitiesTableHeader } from "./lat_act_tbl_header";
 import { LatestActivitiesTableRow } from "./lat_act_tbl_row";
 
 function LatestActivities() {
+
+  function changeColor(event) {
+   event.target.style = {"background-color":"grey", "color":"white"}
+   
+  }
+
   return (
     <div>
       <div className={styles.latactdiv}>
         <h3>Latest Activities</h3>
         <table className={styles.filterbuttons}>
           <tr>
-            <td>All activities</td>
+            <td onClick={changeColor}>All activities</td>
             <td>Regular</td>
             <td>Anomalies</td>
           </tr>

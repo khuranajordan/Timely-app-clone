@@ -1,5 +1,6 @@
 import { LatestActivities } from "./LatestActivities/latest_activities";
 import { RecentPinned } from "./Recent&Pinned/Recent_pinned";
+import { TabPanel } from "../TopBar/TabPanel";
 
 import styles from "./Project.module.css"
 

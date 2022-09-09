@@ -7,17 +7,29 @@ import EditIcon from "@mui/icons-material/Edit";
 import FileCopyIcon from "@mui/icons-material/FileCopy";
 import InventoryIcon from "@mui/icons-material/Inventory";
 import DeleteIcon from "@mui/icons-material/Delete";
+import ClickAwayListener from '@mui/material/ClickAwayListener';
 
 function RecentPinnedCard() {
 
   const [anchorEl, setAnchorEl] = React.useState(null);
 
+  // const [open, setOpen] = React.useState(false);
+  // const anchorRef = React.useRef(null);
+
   const handleClick = (event) => {
     setAnchorEl(anchorEl ? null : event.currentTarget);
   };
 
-  const open = Boolean(anchorEl);
-  const id = open ? "simple-popper" : undefined;
+  // const handleClose = (event) => {
+  //   if (anchorRef.current && anchorRef.current.contains(event.target)) {
+  //     return;
+  //   }
+
+  //   setOpen(false);
+  // };
+
+  const open1 = Boolean(anchorEl);
+  const id = open1 ? "simple-popper" : undefined;
 
   return (
     <div className={styles.card}>
@@ -57,8 +69,9 @@ function RecentPinnedCard() {
             <circle cx="2.5" cy="2.5" r="2.5"></circle>
           </svg>
         </div>
-        <Popper id={id} open={open} anchorEl={anchorEl}>
+        <Popper id={id} open={open1} anchorEl={anchorEl}>
         <Box sx={{ border: 1, p: 1, bgcolor: "background.paper" }}>
+        {/* <ClickAwayListener onClickAway={handleClose}> */}
           <div>
             <PushPinIcon />
             Pin to Dashboard
@@ -83,6 +96,7 @@ function RecentPinnedCard() {
             <DeleteIcon />
             Delete
           </div>
+          {/* </ClickAwayListener> */}
         </Box>
       </Popper>
         <p>30:00 left</p>
