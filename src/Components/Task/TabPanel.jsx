@@ -15,9 +15,9 @@ function TabData(props) {
         <div>
             {
                 value === index && (
-                    <div style={{ width: '100%', backgroundColor: 'white', marginTop: '-20px' }}>
+                    <div style={{ width: '100%', backgroundColor: 'white', marginTop: '-15px' }}>
                         <p style={{ color: 'white' }}>{children}</p>
-                        <div style={{display:'flex',alignItems:'center',justifyContent:'space-around'}}>
+                        <div style={{display:'flex',alignItems:'center',justifyContent:'space-around',paddingTop:'10px'}}>
                             <div style={{ display: 'flex' }}>
                                 <Toggle />
                                 <SelectProject />
@@ -30,7 +30,7 @@ function TabData(props) {
                             </div>
                         </div>
 
-                        <div style={{marginLeft:'100px',display:'flex'}}>
+                        <div style={{display:'flex'}}>
                             <div style={{marginTop:'106px'}}>
                             <div style={{width:'250px',height:'143px',border:'1px solid rgb(215 216 219)',display:'flex',alignItems:'center',justifyContent:'center'}}>
                                     <div style={{display:'flex'}}>
@@ -77,10 +77,11 @@ const TabPanel = ({ data }) => {
                 sx={{
                     "& button": { color: '#343a3f', fontSize: '14px', fontWeight: '700' },
                     "& button:hover": { backgroundColor: '#f0eded' },
-                    "& button.Mui-selected": { color: '#343a3f', backgroundColor: 'white' }
+                    "& button.Mui-selected": { color: '#343a3f', backgroundColor: 'white' },
+                    
                 }}>
-                <Tab label='People' sx={{ textTransform: 'none', marginLeft: '200px' }} />
-                <Tab label='Projects' sx={{ textTransform: 'none' }} />
+                <Tab label='People' sx={{ textTransform: 'none', marginLeft: '200px',paddingBottom:'30px' }} />
+                <Tab label='Projects' sx={{ textTransform: 'none',paddingBottom:'30px' }} />
             </Tabs>
 
             <TabData value={TabValue} index={0} data='People' style={{ backgroundColor: 'white' }}></TabData>

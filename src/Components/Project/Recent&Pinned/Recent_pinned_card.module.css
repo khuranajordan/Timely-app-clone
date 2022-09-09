@@ -1,0 +1,77 @@
+.svglogo {
+  background-color: rgb(103, 163, 188);
+  width: 32px;
+  height: 30px;
+  padding-top: 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  width: 30%;
+  border-radius: 5px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid rgb(237 237 237);
+}
+
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.left {
+  /* border: 1px solid black; */
+  width: 75%;
+}
+
+.right {
+  /* background-color: blue; */
+  /* border: 1px solid black; */
+  width: 25%;
+}
+
+.lefttop {
+  display: flex;
+  height: 60%;
+  /* border: 1px solid black; */
+}
+
+.lefttopright {
+  padding-left: 15px;
+  padding-bottom: 25px;
+  /* border: 1px solid black; */
+}
+
+.lefttopright> :nth-child(1) {
+  margin-top: 2px;
+}
+
+.lefttopright> :nth-child(2) {
+  margin-top: -4px;
+}
+
+.leftbottom {
+  height: 12%;
+  margin-top: 25px;
+  border-radius: 12px;
+  background-color: rgb(237 237 237);
+}
+
+.right>p {
+  margin-top: 36px;
+    margin-left: 18px;
+  font-size: 12px;
+}
+
+.ellipsis {
+  padding-left: 60px;
+  /* border: 1px solid black; */
+  /* background-color: blueviolet; */
+}
+
+.outer {
+  display: flex;
+  gap: 3%;
+}

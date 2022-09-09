@@ -5,16 +5,20 @@ import AddIcon from '@mui/icons-material/Add';
 import TabPanel from './TabPanel';
 import Fab from '@mui/material/Fab';
 import Box from '@mui/material/Box';
+import Sidebar from '../Sidebar/Sidebar';
 
 const Task = () => {
   return (
     <div style={{width:'100%'}}>
+      <Sidebar />
       <div style={{ 
                   width: '100%', 
                   display: 'flex',
                   alignItems:'center',
                   justifyContent:'space-around',
-                  backgroundColor:'#f2f4f8' }}>
+                  backgroundColor:'#f2f4f8',
+                  paddingTop:'25px',
+                  paddingBottom:'15px' }}>
         <h1 style={{color:'#343a3f'}}>Task Planning</h1>
         <div>
         <Button variant="text" startIcon={<QuestionMarkIcon />}

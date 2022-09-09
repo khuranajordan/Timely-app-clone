@@ -4,6 +4,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import GoogleAuth from './GoogleAuth';
 import AppleIcon from '@mui/icons-material/Apple';
+import { Link } from 'react-router-dom';
 
 const RedditTextField = styled((props) => (
     <TextField InputProps={{ disableUnderline: true }} {...props} />
@@ -200,7 +201,10 @@ const Login = () => {
                     </Button>
                     <p style={{ color: '#00d68c', fontWeight: '500' }}>I forgot my password</p>
 
-                    <GoogleAuth />
+
+                       
+                    <Link to='/dashboard'><GoogleAuth /></Link> 
+
                     <Button variant="outlined" startIcon={<AppleIcon sx={{ fontSize: '100px' }} />}
                         sx={{
                             marginTop: '15px',

@@ -1,0 +1,79 @@
+
+td {
+  /* border: 1px solid black; */
+  height: 50px;
+}
+
+tr {
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  outline: 1px solid rgb(237 237 237);
+  background-color: white;
+
+}
+
+tr> :nth-child(1) {
+  width: 300px;
+  /* color: red; */
+  text-align: left;
+  padding-left: 10px;
+}
+
+tr> :nth-child(2) {
+  width: 500px;
+  /* color: red; */
+  text-align: left;
+  padding-left: 10px;
+}
+
+tr> :nth-child(3) {
+  width: 100px;
+  /* color: red; */
+  text-align: right;
+  padding-right: 10px;
+}
+
+tr> :nth-child(1)>:nth-child(1),
+tr> :nth-child(2)>:nth-child(1) {
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.svgdiv {
+  /* border: 1px solid black; */
+  background-color: rgb(89, 188, 229);
+  height: 24px;
+  width: 24px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.svgdiv>svg {
+  display: block;
+  margin:auto;
+  margin-top:25%;
+}
+
+tr> :nth-child(1)>:nth-child(1) >p {
+margin-left: 30px;
+}
+
+.imgdiv{
+  height: 24px;
+  width: 24px;
+  /* border: 1px solid black; */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.imgdiv > img{
+  object-fit: contain;
+  max-width: 100%;
+}
+
+tr> :nth-child(2)>:nth-child(1) >p {
+  margin-left: 5px;
+  }
+
