@@ -12,10 +12,13 @@ import React from "react";
 import styles from "./Homepage.module.css";
 import img1 from "../Images/img1.jpg";
 import img2 from "../Images/img2.jpg";
+import Navbar from "../Navbar/Navbar";
+import Footer1 from "../Footer/Footer1";
 
 const HomePage = () => {
   return (
     <div>
+      <Navbar/>
       <div className={styles.home}>
         <div className={styles.part1}>
           <div className={styles.part1_left}>
@@ -461,6 +464,9 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <Footer1/>
     </div>
   );
 };
