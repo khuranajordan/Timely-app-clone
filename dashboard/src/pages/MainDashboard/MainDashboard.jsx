@@ -9,7 +9,7 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
-
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 
 const style1 = {
   position: "absolute",
@@ -81,6 +81,10 @@ const MainDashboard = () => {
             <ToggleButton value="solo">Solo</ToggleButton>
             <ToggleButton value="company">Company</ToggleButton>
           </ToggleButtonGroup>
+          <select style={{padding:"5px", marginLeft:"15px", border:"1px solid grey", borderRadius:"5px"}}>
+            <option>Me</option>
+          </select>
+          <select style={{padding:"5px", margin:"0 15px", border:"1px solid grey", borderRadius:"5px"}}></select>
         </div>
       </div>
 
