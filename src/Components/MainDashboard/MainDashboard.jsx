@@ -6,9 +6,10 @@ import style from "./MainDashboard.module.css";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import Box from "@mui/material/Box";
-import Modal from "@mui/material/Modal";
+// import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
+import Modals from "./Modals";
 
 
 const style1 = {
@@ -81,6 +82,10 @@ const MainDashboard = () => {
             <ToggleButton value="solo">Solo</ToggleButton>
             <ToggleButton value="company">Company</ToggleButton>
           </ToggleButtonGroup>
+          <select style={{padding:"5px", marginLeft:"15px", border:"1px solid grey", borderRadius:"5px"}}>
+            <option>Me</option>
+          </select>
+          <select style={{padding:"5px", margin:"0 15px", border:"1px solid grey", borderRadius:"5px"}}></select>
         </div>
       </div>
 
@@ -94,28 +99,7 @@ const MainDashboard = () => {
             <p>0h</p>
           </div>
           <div className={style.leftBottom}>
-            <button onClick={handleOpen}>New Entry</button>
-            <Modal
-              hideBackdrop
-              open={open}
-              onClose={handleClose}
-              aria-labelledby="child-modal-title"
-              aria-describedby="child-modal-description"
-            >
-              <Box sx={{ ...style1, width: 200 }}>
-                <TextField
-                  id="standard-helperText"
-                  label="Helper text"
-                  defaultValue="Default Value"
-                  helperText="Some important text"
-                  variant="standard"
-                />
-                <p id="child-modal-description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </p>
-                <Button onClick={handleClose}>Submit</Button>
-              </Box>
-            </Modal>
+            <Modals />
           </div>
         </div>
         <div className={style.right}>
