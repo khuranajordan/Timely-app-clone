@@ -1,0 +1,17 @@
+.navbar_btn > input[type="submit"] {
+  height: 40px;
+  width: 178px;
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: 0.5s;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 18px;
+  margin-left: 20px;
+}
+.navbar_btn > input[type="submit"]:hover{
+    background-color: #001141;
+    color: #fff;
+}
