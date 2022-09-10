@@ -28,7 +28,7 @@ function LatestActivitiesTableRow() {
           <p>Vishal Gupta created client</p>
         </div>
       </td>
-      <td>17:30</td>
+      <td>17:51</td>
     </tr>
   );
 }

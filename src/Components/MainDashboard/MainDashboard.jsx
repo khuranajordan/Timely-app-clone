@@ -82,10 +82,10 @@ const MainDashboard = () => {
             <ToggleButton value="solo">Solo</ToggleButton>
             <ToggleButton value="company">Company</ToggleButton>
           </ToggleButtonGroup>
-          <select style={{padding:"5px", marginLeft:"15px", border:"1px solid grey", borderRadius:"5px"}}>
+          <select style={{ padding: "5px", marginLeft: "15px", border: "1px solid grey", borderRadius: "5px" }}>
             <option>Me</option>
           </select>
-          <select style={{padding:"5px", margin:"0 15px", border:"1px solid grey", borderRadius:"5px"}}></select>
+          <select style={{ padding: "5px", margin: "0 15px", border: "1px solid grey", borderRadius: "5px" }}></select>
         </div>
       </div>
 

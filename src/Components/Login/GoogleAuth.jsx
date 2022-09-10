@@ -2,7 +2,7 @@
 import React from 'react';
 import jwt_decode from "jwt-decode";
 
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -72,6 +72,7 @@ const GoogleAuth = () => {
     }, [])
 
     return (
+        
         <div className="App"
             style={{
                 border: '2px solid #f2f1f2',
@@ -86,8 +87,9 @@ const GoogleAuth = () => {
             }}>
 
 
-
+            <Link to='/dashboard'>
             <div id="signInDiv"  ></div>
+            </Link>
 
             {
                 // user &&
@@ -103,6 +105,7 @@ const GoogleAuth = () => {
             }
 
         </div>
+       
     );
 }
 
