@@ -1,0 +1,114 @@
+.topbar{
+    
+    background-color: aliceblue;
+    height: 80px;
+}
+.topbar>div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1050px;
+    margin: auto;
+}
+.container{
+    margin-left: 80px;
+}
+
+
+#share{
+    color:grey;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+#corner_btn{
+    display: flex;
+}
+
+#new_invoice{
+    color:white;
+    background-color: navy;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+}
+#btn-cont{
+    margin: 50px 0px 0px 120px;
+}
+#btn-cont>button{
+    padding: 10px 20px;
+    color: grey;
+    background-color: white;
+    margin-right: 10px;
+    border: 1px solid grey;
+}
+#mid{
+    margin: 20px 50px 10px 120px;
+    max-width: 1100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color:gray;
+}
+#mid>div{
+    margin-left: -200px;
+}
+#mid>div>h4{
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+#sec_p{
+    margin: -15px 0px 0px 0px;
+}
+#icon{
+    height:40px;
+    width:40px;
+    margin-right: 20px;
+}
+
+#mid>div>a{
+    color:blue;
+}
+#mid>button{
+    background-color: white;
+    padding: 10px 15px;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+#connect{
+    height : 20 px;
+    width: 20px;
+    margin-right: 10px;
+}
+#bottom>img{
+    height:70px;
+    width:70px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+#bottom{
+    text-align: center;
+}
+#bottom>p{
+    font-size:18px;
+    font-weight: 400;
+}
+.popupdiv>button{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 120px;
+
+
+}
