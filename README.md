@@ -15,7 +15,7 @@ Features :
 <li>View Project </p></li>
 </ul>
  
- <ul>
- <li>App URL : https://timelyapp-clone.netlify.app</li>
-</li>
+ 
+ <h3>App URL : https://timelyapp-clone.netlify.app</h3>
+
 </ul>
