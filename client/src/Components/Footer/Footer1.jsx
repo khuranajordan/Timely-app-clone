@@ -9,9 +9,8 @@ const Footer1 = () => {
           Designed by <span style={{ fontWeight: "bold" }}>vikings</span> in
           Oslo, Norway 🇳🇴
         </h3>
-        <img src="" alt="" />
         <img
-          style={{ marginTop: "25px", width: "62px", height: "63px" }}
+          style={{ marginTop: "25px", width: "62px", height: "63px", cursor: "default" }}
           src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a39957b258af61b_ship.svg"
           alt=""
         />
@@ -24,6 +23,7 @@ const Footer1 = () => {
       <div className={styles.wrapper}>
         <div className={styles.one}>
           <img
+            className={styles.footerLogo}
             width={"170px"}
             height="50px"
             src="https://assets-global.website-files.com/622f69e00c9cf2599f3c60d5/62556ba13d84b67cea42af8a_made-by-dark.svg"

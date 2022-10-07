@@ -202,8 +202,8 @@ const Login = () => {
                     <p style={{ color: '#00d68c', fontWeight: '500' }}>I forgot my password</p>
 
 
-                       
-                    <Link to='/dashboard'><GoogleAuth /></Link> 
+
+                    <Link to='/dashboard'><GoogleAuth /></Link>
 
                     <Button variant="outlined" startIcon={<AppleIcon sx={{ fontSize: '100px' }} />}
                         sx={{
