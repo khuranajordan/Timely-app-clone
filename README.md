@@ -16,6 +16,6 @@ Features :
 </ul>
  
  
- <h3>App URL : https://timelyapp-clone.netlify.app</h3>
+<h3>App URL : https://timelyapp-clone.netlify.app</h3>
 
 </ul>
