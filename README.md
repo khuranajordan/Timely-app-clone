@@ -9,7 +9,7 @@ A collaborative project built by 4 Developers within 7 days.
 Features : 
 <ul>
 <li>Signup | Login | Google Signup | Login Integration</li>
-<li>USer Dashboard | Watchlist</li>
+<li>User Dashboard | Watchlist</li>
 <li>Task Manager</li>
 <li>Event Calander</li>
 <li>View Project </p></li>
